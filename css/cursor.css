@@ -50,9 +50,9 @@ body{
   content: '';
   position: absolute;
   background: #2696E8;
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   opacity: 0.2;
-  transform: translate(-30%, -30%);
+  transform: translate(-20%, -20%);
   border-radius: 50%;
 }
