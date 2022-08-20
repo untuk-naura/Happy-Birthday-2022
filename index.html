@@ -48,9 +48,9 @@
               clearTimeout(timeout);
                 
               if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-                  const num = 250;
+                  num = 250;
               }else{
-                  const num = 2500;
+                  num = 2500;
               }
               timeout = setTimeout(mouseStopped, num);
             });
