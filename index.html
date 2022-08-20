@@ -5,10 +5,20 @@
         <title>HBD Nauraaaa</title>
         <link rel="stylesheet" href="css/particle.css">
         <link rel="stylesheet" href="css/cursor.css">
+        <link rel="stylesheet" href="css/book.css">
     </head>
     <body>
         <div id="particles-js"></div>
- 
+        <div id="flipbook">
+            <div class="hard"> Cover </div> 
+            <div class="hard"></div>
+            <div> Page 1 </div>
+            <div> Page 2 </div>
+            <div> Page 3 </div>
+            <div> Page 4 </div>
+            <div class="hard"></div>
+            <div class="hard"></div>
+        </div>
         
         
         
@@ -60,5 +70,13 @@
               cursor.style.display = "none";
             });
           </script>
+        <!--Skrip Buku-->
+        <script type="text/script">
+            $("#flipbook").turn({
+                width: 400,
+                height: 300,
+                autoCenter: true
+            });
+        </script>
     </body>
 </html>
