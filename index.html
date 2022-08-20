@@ -28,6 +28,14 @@
         <!--Skrip cursor-->
           <div class="cursor"></div>
           <script type="text/javascript">
+              
+             $(document).ready(function(){
+                if(window.matchMedia("(max-width: 767px)").matches){
+                    const num = 250;
+                } else{
+                    const num = 2500;
+                }
+            });
 
             const cursor = document.querySelector(".cursor");
             var timeout;
