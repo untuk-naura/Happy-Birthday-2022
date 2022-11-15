@@ -62,7 +62,7 @@
     >
       <video id="background-video" autoplay loop muted poster="https://live.staticflickr.com/307/30754681024_5b916d99a3_b.jpg"><source src="https://drive.google.com/uc?export=download&id=1481UoTBGgMVc3XuLgYLKx2zKdIOAUUDX" type="video/mp4"></video>
       <div class="hero-container" data-aos="fade-in">
-        <p class="h1">
+        <p id="#tit" class="h1">
           <span
             class="typed"
             data-typed-items="Happy Birthday, Naura!|Semangat belajar terus ya..."
@@ -132,11 +132,17 @@
     <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
     <script>
     $(document).ready(function() {
-        window.setTimeout(function() {
-          $("video").remove();
-          $(".preloader").fadeOut("slow");
-          $(".preloader").attr("style", "display: none !important");
-        },250);
+          var dv = document.getElementById('divscr');
+          var sp=document.getElementById('res');
+          if (dv.offsetWidth - dv.clientWidth == 10) {
+            $('#tit').removeClass("h1");
+            $('#tit').addClass("h3");
+          }
+          window.setTimeout(function() {
+            $("video").remove();
+            $(".preloader").fadeOut("slow");
+            $(".preloader").attr("style", "display: none !important");
+          },250);
     });
     </script>
   </body>
