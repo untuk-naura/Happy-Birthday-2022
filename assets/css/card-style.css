@@ -3,11 +3,24 @@
 	 z-index:3;
 	 position: relative;
 	 width: 300px;
-	 height: 425px;
+	 min-height: 60vh;
+	 /**width: 300px;
+	 height: 425px;*/
 	 border: 10px solid #73bfb5;
 	 margin: 50px auto 0 auto;
 	 box-shadow: inset 10px 0px 15px 0px rgba(0, 0, 0, 0.1);
 	 background-color: #e6f0e6;
+}
+.card.hidden {
+	visibility: hidden;
+	opacity:0;
+	transform: translate(0, 75vh);
+	transition: all 2s;
+}
+.card.show {
+	visibility:visible;
+	opacity:1;
+	transition: all 2s;
 }
  .card .text-container {
 	 width: 80%;
@@ -262,4 +275,3 @@
 		 box-shadow: 0 0 10px rgba(255, 165, 0, 0.5), 0 0 20px rgba(255, 165, 0, 0.5), 0 0 60px rgba(255, 165, 0, 0.5), 0 0 80px rgba(255, 165, 0, 0.5);
 	}
 }
- 
