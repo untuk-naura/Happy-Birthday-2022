@@ -76,3 +76,11 @@ function pesta() {
         }, 2000);
     },500);
 }
+function hideorshow() {
+    if ($(".card.hidden")[0]){
+        $(".card").removeClass("hidden");
+        $(".card").addClass("show");
+    } else {
+        $(".card").addClass("hidden");
+    }
+}
