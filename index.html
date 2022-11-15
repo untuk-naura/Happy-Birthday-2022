@@ -133,6 +133,11 @@
     <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
     <script>
     $(document).ready(function() {
+          var dv = document.getElementById('divscr');
+          if (dv.offsetWidth - dv.clientWidth == 10) {
+            $("#tit").removeClass("h1");
+            $("#tit").addClass("h3");
+          }
           window.setTimeout(function() {
             $("video").remove();
             $(".preloader").fadeOut("slow");
