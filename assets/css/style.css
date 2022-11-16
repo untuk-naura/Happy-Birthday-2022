@@ -322,11 +322,11 @@ h6 {
   }
   #hero .hero-container #tit {
     font-size: 28px;
-    line-height: 0px;
+    line-height: 18px;
   }
   #hero .hero-container #tit span {
     font-size: 28px;
-    line-height: 0px;
+    line-height: 18px;
   }
 }
 
@@ -337,11 +337,11 @@ h6 {
   }
   #hero .hero-container #tit {
     font-size: 24px;
-    line-height: 0px;
+    line-height: 14px;
   }
    #hero .hero-container #tit span {
     font-size: 24px;
-    line-height: 0px;
+    line-height: 14px;
   }
   #hero h2 {
     font-size: 24px;
