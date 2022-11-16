@@ -320,16 +320,24 @@ h6 {
   #hero {
     background-attachment: fixed;
   }
+  #hero .hero-container #tit {
+    font-size: 28px;
+    line-height: 20px;
+  }
+  #hero .hero-container #tit span {
+    font-size: 28px;
+    line-height: 20px;
+  }
 }
 
 @media (max-width: 768px) {
   #hero .hero-container #tit {
     font-size: 28px;
-    line-height: 36px;
+    line-height: 20px;
   }
    #hero .hero-container #tit span {
     font-size: 28px;
-    line-height: 36px;
+    line-height: 20px;
   }
   #hero h2 {
     font-size: 18px;
