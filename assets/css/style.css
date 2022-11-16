@@ -321,22 +321,22 @@ h6 {
     background-attachment: fixed;
   }
   #hero .hero-container #tit {
-    font-size: 28px;
+    font-size: 14px;
     line-height: 20px;
   }
   #hero .hero-container #tit span {
-    font-size: 28px;
+    font-size: 14px;
     line-height: 20px;
   }
 }
 
 @media (max-width: 768px) {
   #hero .hero-container #tit {
-    font-size: 28px;
+    font-size: 14px;
     line-height: 20px;
   }
    #hero .hero-container #tit span {
-    font-size: 28px;
+    font-size: 14px;
     line-height: 20px;
   }
   #hero h2 {
