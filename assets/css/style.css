@@ -298,7 +298,7 @@ h6 {
   z-index: 2;
 }
 
-#hero .hero-container p {
+#hero .hero-container #tit {
   margin: 0 0 10px 0;
   font-weight: 700;
   line-height: 56px;
@@ -307,7 +307,7 @@ h6 {
   margin-bottom: 50px;
 }
 
-#hero p span {
+#hero #tit span {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
