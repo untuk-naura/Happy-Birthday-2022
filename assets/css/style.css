@@ -321,7 +321,7 @@ h6 {
 }
 
 @media (max-width: 768px) {
-  #hero h1 {
+  #hero #tit {
     font-size: 28px;
     line-height: 36px;
   }
