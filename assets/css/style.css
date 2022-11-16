@@ -305,7 +305,7 @@ h6 {
   color: #fff;
   font-family: "Poppins", sans-serif;
   margin-bottom: 50px;
-  font-size; 64px;
+  font-size: 64px;
 }
 
 #hero #tit span {
@@ -313,6 +313,7 @@ h6 {
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
+  font-size: 64px;
 }
 
 @media (min-width: 1024px) {
@@ -326,7 +327,10 @@ h6 {
     font-size: 28px;
     line-height: 36px;
   }
-
+   #hero #tit span {
+    font-size: 28px;
+    line-height: 36px;
+  }
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
