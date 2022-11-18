@@ -4,9 +4,11 @@ function pesta() {
     $("#hero").addClass("hero-b");
     $("video").remove();
     $("#hero").prepend('<video id="background-video" autoplay loop muted poster="https://live.staticflickr.com/307/30754681024_5b916d99a3_b.jpg"><source src="https://drive.google.com/uc?export=download&id=1wSHGiiuWzX4OHTOTLGm9wDLqkIye7mUi" type="video/mp4"></video>');
-    audio.pause();
-    audio.currentTime = 0;
-    audio.play();
+    window.setTimeout(function() {
+        audio.pause();
+        audio.currentTime = 0;
+        audio.play();
+    }, 500);
     window.setTimeout(function() {
         var count = 200;
         var defaults = {
