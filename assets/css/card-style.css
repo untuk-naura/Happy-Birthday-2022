@@ -28,6 +28,7 @@
 	 width: 80%;
 	 height: 80%;
 	 margin: auto;
+	 margin-top: 10px;
 }
  .strikethrough {
 	 text-decoration: line-through;
