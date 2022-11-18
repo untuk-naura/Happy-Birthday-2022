@@ -44,7 +44,7 @@ function pesta() {
         });
     
         window.setTimeout(function() {
-            var duration = (4 * 60 * 1000);
+            var duration = (221 * 1000); //3 menit 41 detik
             var animationEnd = Date.now() + duration;
             var defaults = { startVelocity: 10, spread: 360, ticks: 60, zIndex: 0 };
     
